@@ -14,6 +14,11 @@
 
 ---
 
+## 🌟 教學教學宗旨
+<p align="center">這裡可以放一些為何做這些的內容??</p>
+<p align="center">本課程旨在介紹程式設計的基本概念和技術，以及人工智慧的發展和應用。課程內容涵蓋程式語言的基本語法，以及人工智慧的基礎觀念與理論，並藉由編程練習及 AI 工具操作來進一步了解人工智慧應用以及程式設計的潛在應用。</p>
+---
+
 ## 📺 教材示範影片
 <p align="center">
   <a href="https://youtu.be/I_TfnCPqWdc" target="_blank" rel="noopener noreferrer">
