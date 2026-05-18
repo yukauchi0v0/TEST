@@ -1,5 +1,17 @@
-# 🎵 音樂互動式視覺化之教學成果
-> **113_FoPDAI_CourseProject** - 結合音樂、程式設計與互動視覺藝術的教學實踐與成果展示。
+<p align="center">
+  <a href="https://ixd.ntut.edu.tw/" target="_blank" rel="noopener noreferrer">
+    <img src="https://ixd.ntut.edu.tw/var/file/89/1089/msys_1089_5119377_21933.png" alt="國立臺北科技大學 互動設計系 Logo" width="50%">
+  </a>
+</p>
+
+# 🎵 音樂互動式景觀化之教學成果
+> **113_FoPDAI_課程專案** - 結合音樂、程式設計與視覺互動藝術的教學實踐與成果展示。
+
+---
+
+## 👨‍🏫 課程指導團隊
+- **指導老師**：[韓秉軒 Han Ping-Hsuan](https://ixd.ntut.edu.tw/p/412-1089-13271.php?Lang=zh-tw) 副教授 
+- **開課單位**：國立臺北科技大學 互動設計系
 
 ---
 
@@ -97,4 +109,4 @@
 </table>
 
 ---
-<p align="center">🛠️ 113_FoPDAI_CourseProject | 台北科技大學 互動設計系</p>
+<p align="center">🛠️ 113_FoPDAI_CourseProject | 國立臺北科技大學 互動設計系</p>
