@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ixd.ntut.edu.tw/" target="_blank" rel="noopener noreferrer">
-    <img src="https://ixd.ntut.edu.tw/var/file/89/1089/msys_1089_5119377_21933.png" alt="國立臺北科技大學 互動設計系 Logo" width="50%">
+    <img src="logo.png" alt="國立臺北科技大學 互動設計系 Logo" width="50%">
   </a>
 </p>
 
@@ -10,7 +10,7 @@
 ---
 
 ## 👨‍🏫 課程指導團隊
-- **指導老師**：[韓秉軒 Han Ping-Hsuan](https://ixd.ntut.edu.tw/p/412-1089-13271.php?Lang=zh-tw) 副教授 
+- **指導老師**：[韓秉軒 Han Ping-Hsuan](https://ixd.ntut.edu.tw/p/406-1089-110727,r1713.php?Lang=zh-tw) 副教授 
 - **開課單位**：國立臺北科技大學 互動設計系
 
 ---
