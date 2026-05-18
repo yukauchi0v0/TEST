@@ -1,9 +1,8 @@
 <p align="center">
   <a href="https://ixd.ntut.edu.tw/" target="_blank" rel="noopener noreferrer">
-    <img src="logo.png" alt="國立臺北科技大學 互動設計系 Logo" width="50%">
+    <img src="image_7e568d.png" alt="國立臺北科技大學 互動設計系 Logo" width="50%">
   </a>
 </p>
-
 # 🎵 音樂互動式景觀化之教學成果
 > **113_FoPDAI_課程專案** - 結合音樂、程式設計與視覺互動藝術的教學實踐與成果展示。
 
