@@ -17,7 +17,7 @@
 ## 📺 教材示範影片
 <p align="center">
   <a href="https://youtu.be/I_TfnCPqWdc" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/I_TfnCPqWdc/maxresdefault.jpg" alt="教材示範影片" width="80%">
+    <img src="螢幕擷取畫面 2026-05-18 151728.png" alt="教材示範影片" width="80%">
   </a>
 </p>
 
