@@ -113,4 +113,28 @@
 </table>
 
 ---
+
+## 💻 2024 Spring 課程核心與互動技術應用
+
+在 2024 年的春季成果中，學生們結合了程式邏輯與視覺互動藝術，透過 Unity 引擎與 C# 程式開發，實現了豐富的互動景觀與動態呈現：
+
+<table align="center" style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td width="50%" style="padding: 15px; vertical-align: top; background-color: #f9f9f9; border: 1px solid #e0e0e0;">
+      <h4>⚙️ 程式與物理互動設計</h4>
+      <ul>
+        <li><b>物理與動態控制</b>：運用 <code>Rigidbody</code> 賦予物件真實物理特性，並透過 <code>Update()</code> 實現每幀更新的流暢互動體驗。</li>
+        <li><b>時間與精準觸發</b>：運用 <code>Time.time</code> 進行時間軸控制，結合按鍵輸入與物件生成（<code>Instantiate</code> / <code>Destroy</code>）打造即時回饋的視覺景觀。</li>
+      </ul>
+    </td>
+    <td width="50%" style="padding: 15px; vertical-align: top; background-color: #f9f9f9; border: 1px solid #e0e0e0;">
+      <h4>🎨 視覺與景觀化實踐</h4>
+      <ul>
+        <li><b>聲光與空間融合</b>：將音樂節奏與程式碼邏輯對應，使數位景觀隨著聲音參數動態變化。</li>
+        <li><b>模組化產出</b>：透過 Prefab（預製物件）概念與迴圈邏輯的高效運用，建構出層次豐富的互動景觀裝置。</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+---
 <p align="center">🛠️ 113_FoPDAI_CourseProject | 國立臺北科技大學 互動設計系</p>
