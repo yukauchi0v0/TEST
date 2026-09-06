@@ -8,12 +8,12 @@
   <img src="https://img.shields.io/badge/NTUT-IXD-red?style=for-the-badge" alt="NTUT IXD">
   <img src="https://img.shields.io/badge/Course-FoPDAI-blue?style=for-the-badge" alt="FoPDAI">
   <img src="https://img.shields.io/badge/Platform-Unity%20%2F%20C%23-green?style=for-the-badge" alt="Unity">
+  <img src="https://img.shields.io/badge/Input-MIDI%20Keyboard-orange?style=for-the-badge" alt="MIDI">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License">
 </p>
 
-# 🎵 音樂互動式景觀化之教學成果 (Music-Interactive Scenographization)
-
-> **113_FoPDAI_課程專案** —— 結合音樂、程式設計與視覺互動藝術的教學實踐與成果展示。本專案引導學生透過數位連結（Digital Engagement）探索沉浸式體驗[cite: 2]。
+# 🎹🎵 Interactive Generative Art with MIDI Keyboard
+> **113_FoPDAI_課程教材與專案** —— 結合 MIDI 鍵盤、程式設計與視覺互動藝術的教學實踐與成果展示。本專案引導學生透過數位連結（Digital Engagement）探索沉浸式音樂互動景觀化體驗。
 
 ---
 
@@ -21,20 +21,20 @@
 - [👨‍🏫 課程指導團隊](#-課程指導團隊)
 - [🌟 教學宗旨與核心理念](#-教學宗旨與核心理念)
 - [📺 教材示範影片](#-教材示範影片)
+- [🛠️ 核心技術與學習重點](#️-核心技術與學習重點)
 - [🌟 2025 Spring 學生成果展示](#-2025-spring-學生成果展示)
-- [🛠️ 核心模組與技術架構](#️-核心模組與技術架構)
 - [🚀 開發與實作指南](#-開發與實作指南)
 
 ---
 
 ## 👨‍🏫 課程指導團隊
-- **指導老師**：[韓秉軒 Han Ping-Hsuan](https://ixd.ntut.edu.tw/p/406-1089-110727,r1713.php?Lang=zh-tw) 副教授[cite: 2]
-- **開課單位**：國立臺北科技大學 互動設計系
+- **指導老師**：[韓秉軒 Han Ping-Hsuan](https://ixd.ntut.edu.tw/p/406-1089-110727,r1713.php?Lang=zh-tw) 副教授
+- **開課單位**：國立臺北科技大學 互動設計系 (IxD, NTUT)
 
 ---
 
 ## 🌟 教學宗旨與核心理念
-本課程旨在引導學生透過互動式視覺與聽覺的結合，增強特定舞台（如舞蹈、音樂劇、戲劇、科技藝術或遊戲體驗等）之表現力[cite: 2]。課程內容涵蓋程式語言的基本語法、人工智慧的應用，並透過編程練習與跨域工具操作，帶領學生將音樂與空間、程式碼邏輯融為一體，實踐音樂互動式景觀化的完整創作。
+本課程旨在引導學生透過互動式視覺與聽覺的結合，增強特定舞台（如舞蹈、音樂劇、戲劇、科技藝術或遊戲體驗等）之表現力。課程內容涵蓋程式語言的基本語法、人工智慧與外部硬體（如 MIDI 控制器）的應用，帶領學生將音樂與空間、程式碼邏輯融為一體，實踐音樂互動式景觀化（Music-Interactive Scenographization）的完整創作。
 
 ---
 
@@ -44,6 +44,18 @@
     <img src="螢幕擷取畫面 2026-05-18 151728.png" alt="教材示範影片" width="80%">
   </a>
 </p>
+
+---
+
+## 🛠️ 核心技術與學習重點
+本專案在實作過程中融合了多項關鍵技術，各模組的功能與參數對應如下：
+
+| 模組分類 | 核心技術 / 工具 | 說明與應用 |
+| :--- | :--- | :--- |
+| **互動硬體整合** | `MINIS (RtMidi)`, `MIDI Keyboard` | 讀取外部 MIDI 鍵盤/控制器訊號，即時抓取數值並進行 0-1 參數映射。 |
+| **輸入系統** | `Unity New Input System` | 採用事件驅動（Event-based）架構，靈活設定 Action Maps 與對應綁定。 |
+| **物理與動態控制** | `Rigidbody`, `Update()`, `Time.time` | 賦予物件真實物理特性，透過每幀更新與精準時間軸控制實現流暢動態。 |
+| **聲光視覺融合** | `Particle System`, `AudioSource` | 將音樂頻率與節奏對應至視覺粒子與特效，建構動態生成藝術（Generative Art）。 |
 
 ---
 
@@ -65,7 +77,7 @@
     </td>
     <td width="33.3%" align="center">
       <a href="https://youtu.be/QMvLnIeeIQ4" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/QMvLnIeeIQ4/0.jpg" alt="2025 Result 3" width="100%"><br>
+        <img src="https://img.youtube.com/vi/QMvLnIeeIQ4/0.jpg" alt="https://img.youtube.com/vi/QMvLnIeeIQ4/0.jpg" alt="2025 Result 3" width="100%"><br>
         🎬 成果作品 3
       </a>
     </td>
@@ -94,25 +106,13 @@
 
 ---
 
-## 🛠️ 核心模組與技術架構
-本專案在實作過程中融合了多項關鍵技術，各模組的功能與參數對應如下表：
-
-| 模組分類 | 核心技術 / 參數 | 說明與應用 |
-| :--- | :--- | :--- |
-| **物理與動態控制** | `Rigidbody`, `Update()` | 賦予物件真實物理特性，透過每幀更新實現流暢動態[cite: 5]。 |
-| **時間軸與觸發** | `Time.time`, `Instantiate` | 掌握精準時間軸控制，結合物件動態生成與回饋機制[cite: 5]。 |
-| **數位舞台設定** | `Digital Engagement` | 結合舞蹈、音樂劇、遊戲體驗等場域，強化沉浸表現[cite: 2]。 |
-| **聲光視覺融合** | Audio-Visual Mapping | 將音樂頻率與節奏對應至視覺動態，建構動態生態景觀。 |
-
----
-
 ## 🚀 開發與實作指南
-1. **階段一：冒險舞台定義**
-   - 選擇特定的冒險舞台（如科技藝術、互動遊戲、公眾螢幕等），並確立設計主軸[cite: 2]。
-2. **階段二：基礎程式邏輯**
-   - 運用 Unity C# 進行腳本編寫，處理變數、條件判斷與迴圈架構。
-3. **階段三：視覺景觀整合**
-   - 透過 Prefab（預製物件）進行模組化佈署與景觀生成，完成最終的聲光互動展演[cite: 5]。
+1. **階段一：互動舞台與情境定義**
+   - 選擇特定的冒險舞台（如科技藝術、互動遊戲、舞蹈視覺等），確立 MIDI 互動與視覺設計的主軸。
+2. **階段二：MIDI 訊號與程式邏輯**
+   - 設定 Unity New Input System 與 MINIS 插件，編寫 C# 腳本接收 MIDI 鍵盤訊號，處理即時數值映射。
+3. **階段三：生成藝術與景觀整合**
+   - 結合 Particle System 與 Prefab（預製物件）進行模組化佈署與視覺生成，完成最終的聲光互動展演。
 
 ---
 <p align="center">🛠️ 113_FoPDAI_CourseProject | 國立臺北科技大學 互動設計系</p>
