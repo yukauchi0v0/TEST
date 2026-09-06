@@ -4,20 +4,37 @@
   </a>
 </p>
 
-# 🎵 音樂互動式景觀化之教學成果
-113_FoPDAI_課程專案-- 結合音樂、程式設計與視覺互動藝術的教學實踐與成果展示。
+<p align="center">
+  <img src="https://img.shields.io/badge/NTUT-IXD-red?style=for-the-badge" alt="NTUT IXD">
+  <img src="https://img.shields.io/badge/Course-FoPDAI-blue?style=for-the-badge" alt="FoPDAI">
+  <img src="https://img.shields.io/badge/Platform-Unity%20%2F%20C%23-green?style=for-the-badge" alt="Unity">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License">
+</p>
+
+# 🎵 音樂互動式景觀化之教學成果 (Music-Interactive Scenographization)
+
+> **113_FoPDAI_課程專案** —— 結合音樂、程式設計與視覺互動藝術的教學實踐與成果展示。本專案引導學生透過數位連結（Digital Engagement）探索沉浸式體驗[cite: 2]。
+
+---
+
+## 📑 目錄 (Table of Contents)
+- [👨‍🏫 課程指導團隊](#-課程指導團隊)
+- [🌟 教學宗旨與核心理念](#-教學宗旨與核心理念)
+- [📺 教材示範影片](#-教材示範影片)
+- [🌟 2025 Spring 學生成果展示](#-2025-spring-學生成果展示)
+- [🛠️ 核心模組與技術架構](#️-核心模組與技術架構)
+- [🚀 開發與實作指南](#-開發與實作指南)
 
 ---
 
 ## 👨‍🏫 課程指導團隊
-- **指導老師**：[韓秉軒 Han Ping-Hsuan](https://ixd.ntut.edu.tw/p/406-1089-110727,r1713.php?Lang=zh-tw) 副教授 
+- **指導老師**：[韓秉軒 Han Ping-Hsuan](https://ixd.ntut.edu.tw/p/406-1089-110727,r1713.php?Lang=zh-tw) 副教授[cite: 2]
 - **開課單位**：國立臺北科技大學 互動設計系
 
 ---
 
-## 🌟 教學宗旨與課程大綱
-<p align="center">以互動式視覺與聽覺，探索數位連結與景觀化的無限可能</p>
-<p>本課程旨在引導學生透過互動式視覺與聽覺的結合，增強特定舞台（如舞蹈、音樂劇、戲劇、科技藝術或遊戲體驗等）之表現力[cite: 2]。課程內容涵蓋程式語言的基本語法、人工智慧的應用，並透過編程練習與跨域工具操作，帶領學生將音樂與空間、程式碼邏輯融為一體，實踐音樂互動式景觀化的完整創作。</p>
+## 🌟 教學宗旨與核心理念
+本課程旨在引導學生透過互動式視覺與聽覺的結合，增強特定舞台（如舞蹈、音樂劇、戲劇、科技藝術或遊戲體驗等）之表現力[cite: 2]。課程內容涵蓋程式語言的基本語法、人工智慧的應用，並透過編程練習與跨域工具操作，帶領學生將音樂與空間、程式碼邏輯融為一體，實踐音樂互動式景觀化的完整創作。
 
 ---
 
@@ -77,44 +94,25 @@
 
 ---
 
-## 💡 專案核心架構與詳細介紹
+## 🛠️ 核心模組與技術架構
+本專案在實作過程中融合了多項關鍵技術，各模組的功能與參數對應如下表：
 
-在「音樂互動式景觀化」的專案實踐中，學生團隊歷經了從選定冒險舞台、技術導入到最終動態演出的完整流程。以下為本專案的核心模組與設計思維：
+| 模組分類 | 核心技術 / 參數 | 說明與應用 |
+| :--- | :--- | :--- |
+| **物理與動態控制** | `Rigidbody`, `Update()` | 賦予物件真實物理特性，透過每幀更新實現流暢動態[cite: 5]。 |
+| **時間軸與觸發** | `Time.time`, `Instantiate` | 掌握精準時間軸控制，結合物件動態生成與回饋機制[cite: 5]。 |
+| **數位舞台設定** | `Digital Engagement` | 結合舞蹈、音樂劇、遊戲體驗等場域，強化沉浸表現[cite: 2]。 |
+| **聲光視覺融合** | Audio-Visual Mapping | 將音樂頻率與節奏對應至視覺動態，建構動態生態景觀。 |
 
-<table align="center" style="width:100%; border-collapse: collapse;">
-  <tr>
-    <td width="50%" style="padding: 15px; vertical-align: top; background-color: #f9f9f9; border: 1px solid #e0e0e0;">
-      <h4>🎯 1. 冒險舞台與選擇定位 (Digital Engagement)</h4>
-      <ul>
-        <li><b>多元舞台探索</b>：學生選擇如音樂劇、科技藝術、遊戲體驗或公眾螢幕等場域作為創作基地[cite: 2]。</li>
-        <li><b>感官連結深化</b>：透過互動式的視覺與聽覺設計，強化觀者與數位環境之間的沉浸式共鳴[cite: 2]。</li>
-      </ul>
-    </td>
-    <td width="50%" style="padding: 15px; vertical-align: top; background-color: #f9f9f9; border: 1px solid #e0e0e0;">
-      <h4>⚙️ 2. 程式設計與互動技術實作</h4>
-      <ul>
-        <li><b>物理與動態控制</b>：運用 <code>Rigidbody</code> 賦予物件真實物理特性，並透過 <code>Update()</code> 達成流暢的幀率互動[cite: 5]。</li>
-        <li><b>時間軸與回饋</b>：結合 <code>Time.time</code> 進行精準時間軸控制，配合物件生成與互動觸發，打造即時反應的景觀變化[cite: 5]。</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" style="padding: 15px; vertical-align: top; background-color: #f9f9f9; border: 1px solid #e0e0e0;">
-      <h4>🎨 3. 聲光視覺與景觀化融合</h4>
-      <ul>
-        <li><b>聲光對應邏輯</b>：將音樂的節奏、頻率等音訊參數對應至視覺動態，使數位景觀隨著音樂起伏而生長、變換。</li>
-        <li><b>模組化建構</b>：善用 Prefab（預製物件）與迴圈邏輯，有效率地建構出層次豐富的數位生態與景觀裝置[cite: 5]。</li>
-      </ul>
-    </td>
-    <td width="50%" style="padding: 15px; vertical-align: top; background-color: #f9f9f9; border: 1px solid #e0e0e0;">
-      <h4>🚀 4. 跨域整合與未來應用</h4>
-      <ul>
-        <li><b>AI 工具與協作</b>：導入 AI 輔助工具與腳本編寫，提升程式除錯與整體專案開發的效率。</li>
-        <li><b>成果發表與回饋</b>：將跨領域技術具體實踐於期末展演，完整展現北科大互動設計系學生的創作爆發力。</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+---
+
+## 🚀 開發與實作指南
+1. **階段一：冒險舞台定義**
+   - 選擇特定的冒險舞台（如科技藝術、互動遊戲、公眾螢幕等），並確立設計主軸[cite: 2]。
+2. **階段二：基礎程式邏輯**
+   - 運用 Unity C# 進行腳本編寫，處理變數、條件判斷與迴圈架構。
+3. **階段三：視覺景觀整合**
+   - 透過 Prefab（預製物件）進行模組化佈署與景觀生成，完成最終的聲光互動展演[cite: 5]。
 
 ---
 <p align="center">🛠️ 113_FoPDAI_CourseProject | 國立臺北科技大學 互動設計系</p>
