@@ -22,7 +22,8 @@
 - [🌟 教學宗旨與核心理念](#-教學宗旨與核心理念)
 - [📺 教材示範影片](#-教材示範影片)
 - [🛠️ 核心技術與學習重點](#️-核心技術與學習重點)
-- [🌟 2025 Spring 學生成果展示](#-2025-spring-學生成果展示)
+- [🌟 2026 最新學生成果展示](#-2026-最新學生成果展示)
+- [📦 歷屆／往期成果回顧 (Archive)](#-歷屆往期成果回顧-archive)
 - [🚀 開發與實作指南](#-開發與實作指南)
 
 ---
@@ -59,26 +60,75 @@
 
 ---
 
-## 🌟 2025 Spring 學生成果展示
+## 🌟 2026 最新學生成果展示
 
+<table align="center">
+  <tr>
+    <td width="33.3%" align="center">
+      <a href="https://youtu.be/VU8c3B2G0Lo" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/VU8c3B2G0Lo/0.jpg" alt="2026 Result 1" width="100%"><br>
+        🎬 2026 成果作品 1
+      </a>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="https://youtu.be/k7JCcOx8mJo" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/k7JCcOx8mJo/0.jpg" alt="2026 Result 2" width="100%"><br>
+        🎬 2026 成果作品 2
+      </a>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="https://youtu.be/ULoKU4VA0to" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/ULoKU4VA0to/0.jpg" alt="2026 Result 3" width="100%"><br>
+        🎬 2026 成果作品 3
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3%" align="center">
+      <a href="https://youtu.be/q8dl5AEDBTs" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/q8dl5AEDBTs/0.jpg" alt="2026 Result 4" width="100%"><br>
+        🎬 2026 成果作品 4
+      </a>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="https://youtu.be/tLvHPs3-GSg" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/tLvHPs3-GSg/0.jpg" alt="2026 Result 5" width="100%"><br>
+        🎬 2026 成果作品 5
+      </a>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="https://youtu.be/roGEjevqmqs" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/roGEjevqmqs/0.jpg" alt="2026 Result 6" width="100%"><br>
+        🎬 2026 成果作品 6
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📦 歷屆／往期成果回顧 (Archive)
+> 收錄早期（2025 與 2024 年）之精選學生期末互動成果與示範。
+
+### 📅 2025 Spring 學生成果
 <table align="center">
   <tr>
     <td width="33.3%" align="center">
       <a href="https://youtu.be/EtXDwIwOYJc" target="_blank" rel="noopener noreferrer">
         <img src="https://img.youtube.com/vi/EtXDwIwOYJc/0.jpg" alt="2025 Result 1" width="100%"><br>
-        🎬 成果作品 1
+        🎬 2025 作品 1
       </a>
     </td>
     <td width="33.3%" align="center">
       <a href="https://youtu.be/d0j2c98tNHg" target="_blank" rel="noopener noreferrer">
         <img src="https://img.youtube.com/vi/d0j2c98tNHg/0.jpg" alt="2025 Result 2" width="100%"><br>
-        🎬 成果作品 2
+        🎬 2025 作品 2
       </a>
     </td>
     <td width="33.3%" align="center">
       <a href="https://youtu.be/QMvLnIeeIQ4" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.youtube.com/vi/QMvLnIeeIQ4/0.jpg" alt="https://img.youtube.com/vi/QMvLnIeeIQ4/0.jpg" alt="2025 Result 3" width="100%"><br>
-        🎬 成果作品 3
+        <img src="https://img.youtube.com/vi/QMvLnIeeIQ4/0.jpg" alt="2025 Result 3" width="100%"><br>
+        🎬 2025 作品 3
       </a>
     </td>
   </tr>
@@ -86,23 +136,37 @@
     <td width="33.3%" align="center">
       <a href="https://www.youtube.com/watch?v=mIzLXEtFybc" target="_blank" rel="noopener noreferrer">
         <img src="https://img.youtube.com/vi/mIzLXEtFybc/0.jpg" alt="2025 Result 4" width="100%"><br>
-        🎬 成果作品 4
+        🎬 2025 作品 4
       </a>
     </td>
     <td width="33.3%" align="center">
       <a href="https://youtu.be/fz2pVe5SybU" target="_blank" rel="noopener noreferrer">
         <img src="https://img.youtube.com/vi/fz2pVe5SybU/0.jpg" alt="2025 Result 5" width="100%"><br>
-        🎬 成果作品 5
+        🎬 2025 作品 5
       </a>
     </td>
     <td width="33.3%" align="center">
       <a href="https://www.youtube.com/watch?v=Ftr2pT1rtDo" target="_blank" rel="noopener noreferrer">
         <img src="https://img.youtube.com/vi/Ftr2pT1rtDo/0.jpg" alt="2025 Result 6" width="100%"><br>
-        🎬 成果作品 6
+        🎬 2025 作品 6
       </a>
     </td>
   </tr>
 </table>
+
+### 📅 2024年經典回顧
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://youtu.be/9hfCIWBD0oU" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.youtube.com/vi/9hfCIWBD0oU/0.jpg" alt="Archive 2024 Result" width="220px"><br>
+          📽️ 2024 經典作品回顧
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
