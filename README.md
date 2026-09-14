@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ixd.ntut.edu.tw/" target="_blank" rel="noopener noreferrer">
-    <img src="螢幕擷取畫面 2026-05-18 151214.png" alt="國立臺北科技大學 互動設計系 Logo" width="50%">
+  
   </a>
 </p>
 
