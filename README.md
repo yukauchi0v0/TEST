@@ -18,37 +18,33 @@
 ---
 
 ## 📑 目錄 (Table of Contents)
-- [👨‍🏫 課程指導團隊](#-課程指導團隊)
-- [🌟 教學宗旨與核心理念](#-教學宗旨與核心理念)
+- [👨‍🏫 課程團隊](#-課程團隊)
+- [🌟 教學目標](#-教學目標)
 - [📺 教材示範影片](#-教材示範影片)
 - [🛠️ 核心技術與學習重點](#️-核心技術與學習重點)
-- [📚 詳細教學講義內容](#-詳細教學講義內容)
 - [🌟 2026 最新學生成果展示](#-2026-最新學生成果展示)
-- [📦 歷屆／往期成果回顧 (Archive)](#-歷屆往期成果回顧-archive)
-- [🚀 開發與實作指南](#-開發與實作指南)
+- [🌟 2025 學生成果展示](#-2025-學生成果展示)
+- [🌟 2024 經典成果展示](#-2024-經典成果展示)
+- [📖 教學概要](#-教學概要)
+- [💻 核心程式碼 (Code)](#-核心程式碼-code)
 
 ---
 
-## 👨‍🏫 課程指導團隊
-- **指導老師**：[韓秉軒 Han Ping-Hsuan](https://ixd.ntut.edu.tw/p/406-1089-110727,r1713.php?Lang=zh-tw) 副教授[cite: 2]
+## 👨‍🏫 課程團隊
+- **指導老師**：[韓秉軒 Han Ping-Hsuan](https://ixd.ntut.edu.tw/p/406-1089-110727,r1713.php?Lang=zh-tw) 副教授
 - **開課單位**：國立臺北科技大學 互動設計系 (IxD, NTUT)
 
 ---
 
-## 🌟 教學大綱
+## 🌟 教學目標
 本課程旨在引導學生透過互動式視覺與聽覺的結合，增強特定舞台（如舞蹈、音樂劇、戲劇、科技藝術或遊戲體驗等）之表現力。課程內容涵蓋程式語言的基本語法、人工智慧與外部硬體（如 MIDI 控制器）的應用，帶領學生將音樂與空間、程式碼邏輯融為一體，實踐音樂互動式景觀化（Music-Interactive Scenographization）的完整創作。
 
 ---
 
 ## 📺 教材示範影片
-<p align="center">
-  <a href="https://youtu.be/I_TfnCPqWdc" target="_blank" rel="noopener noreferrer">
-    <img src="螢幕擷取畫面 2026-05-18 151728.png" alt="教材示範影片" width="80%">
-  </a>
-</p>
+https://github.com/user-attachments/assets/I_TfnCPqWdc
 
 ---
-
 
 ## 🌟 2026 最新學生成果展示
 
@@ -97,10 +93,68 @@
 
 ---
 
-## 📦 歷屆／往期成果回顧 (Archive)
-> 往期學生期末互動成果與示範清單：
-> * **2025 Spring 學生成果**：[作品 1](https://youtu.be/EtXDwIwOYJc)、[作品 2](https://youtu.be/d0j2c98tNHg)、[作品 3](https://youtu.be/QMvLnIeeIQ4)、[作品 4](https://www.youtube.com/watch?v=mIzLXEtFybc)、[作品 5](https://youtu.be/fz2pVe5SybU)、[作品 6](https://www.youtube.com/watch?v=Ftr2pT1rtDo)
-> * **2024 經典作品回顧**：[示範影片連結](https://youtu.be/9hfCIWBD0oU)
+## 🌟 2025 學生成果展示
+
+<table align="center">
+  <tr>
+    <td width="33.3%" align="center">
+      <a href="https://youtu.be/EtXDwIwOYJc" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/EtXDwIwOYJc/0.jpg" alt="2025 Result 1" width="100%"><br>
+        🎬 2025 成果作品 1
+      </a>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="https://youtu.be/d0j2c98tNHg" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/d0j2c98tNHg/0.jpg" alt="2025 Result 2" width="100%"><br>
+        🎬 2025 成果作品 2
+      </a>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="https://youtu.be/QMvLnIeeIQ4" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/QMvLnIeeIQ4/0.jpg" alt="2025 Result 3" width="100%"><br>
+        🎬 2025 成果作品 3
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3%" align="center">
+      <a href="https://www.youtube.com/watch?v=mIzLXEtFybc" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/mIzLXEtFybc/0.jpg" alt="2025 Result 4" width="100%"><br>
+        🎬 2025 成果作品 4
+      </a>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="https://youtu.be/fz2pVe5SybU" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/fz2pVe5SybU/0.jpg" alt="2025 Result 5" width="100%"><br>
+        🎬 2025 成果作品 5
+      </a>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="https://www.youtube.com/watch?v=Ftr2pT1rtDo" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/Ftr2pT1rtDo/0.jpg" alt="2025 Result 6" width="100%"><br>
+        🎬 2025 成果作品 6
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🌟 2024 經典成果展示
+
+<table align="center">
+  <tr>
+    <td width="100%" align="center">
+      <a href="https://youtu.be/9hfCIWBD0oU" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/9hfCIWBD0oU/0.jpg" alt="2024 Result" width="60%"><br>
+        🎬 2024 經典示範影片
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🛠️ 核心技術與學習重點
 本專案在實作過程中融合了多項關鍵技術，各模組的功能與參數對應如下：
 
@@ -113,30 +167,75 @@
 
 ---
 
-## 📚 詳細教學講義內容
-本專案對應之課程單元涵蓋以下核心模組與學習目標：
+## 📖 教學概要
+本專案對應之課程單元與開發實作指南涵蓋以下核心模組與步驟：
 
+### 一、 詳細教學講義內容
 1. **Unity 新輸入系統 (New Input System)**：
    * 學習如何從舊版的 Input Manager 轉換至支援多裝置、事件驅動的新系統。
-   * 設定 `Input Actions`、Action Maps、Actions 與各種 Bindings 參數設定[cite: 8]。
+   * 設定 `Input Actions`、Action Maps、Actions 與各種 Bindings 參數設定。
 2. **MIDI 裝置整合 (MINIS Plugin)**：
-   * 在 Unity 中安裝與設定 RtMidi 與 Minis 插件，讓 C# 腳本能夠順利讀取外部 MIDI 鍵盤或控制器（如 nanoKONTROL2、nanoPAD2）的輸入訊號[cite: 8]。
-   * 透過 `ctx.ReadValue<float>()` 抓取 MIDI 數值（0-1 範圍），並進行數值映射（Mapping）[cite: 8]。
+   * 在 Unity 中安裝與設定 RtMidi 與 Minis 插件，讓 C# 腳本能夠順利讀取外部 MIDI 鍵盤或控制器（如 nanoKONTROL2、nanoPAD2）的輸入訊號。
+   * 透過 `ctx.ReadValue<float>()` 抓取 MIDI 數值（0-1 範圍），並進行數值映射（Mapping）。
 3. **互動生成藝術實作**：
-   * 利用 MIDI 訊號即時觸發與控制粒子特效（Particle System）的生成、顏色變化、初始速度等參數[cite: 8]。
-   * 整合 AudioSource 實現聲音與視覺的互動特效[cite: 8]。
+   * 利用 MIDI 訊號即時觸發與控制粒子特效（Particle System）的生成、顏色變化、初始速度等參數。
+   * 整合 AudioSource 實現聲音與視覺的互動特效。
 
-
+### 二、 開發與實作指南
+1. **階段一：互動舞台與情境定義**
+   - 選擇特定的冒險舞台（如科技藝術、互動遊戲、舞蹈視覺等），確立 MIDI 互動與視覺設計的主軸。
+2. **階段二：MIDI 訊號與程式邏輯**
+   - 設定 Unity New Input System 與 MINIS 插件，編寫 C# 腳本接收 MIDI 鍵盤訊號，處理即時數值映射。
+3. **階段三：生成藝術與景觀整合**
+   - 結合 Particle System 與 Prefab（預製物件）進行模組化佈署與視覺生成，完成最終的聲光互動展演。
 
 ---
 
-## 🚀 開發與實作指南
-1. **階段一：互動舞台與情境定義**
-   - 選擇特定的冒險舞台（如科技藝術、互動遊戲、舞蹈視覺等），確立 MIDI 互動與視覺設計的主軸[cite: 2]。
-2. **階段二：MIDI 訊號與程式邏輯**
-   - 設定 Unity New Input System 與 MINIS 插件，編寫 C# 腳本接收 MIDI 鍵盤訊號，處理即時數值映射[cite: 8]。
-3. **階段三：生成藝術與景觀整合**
-   - 結合 Particle System 與 Prefab（預製物件）進行模組化佈署與視覺生成，完成最終的聲光互動展演[cite: 5, 8]。
+## 💻 核心程式碼 (Code)
+
+以下為本專案結合 **Minis 插件** 與 **Unity Particle System** 的核心 C# 範例程式碼：
+
+```csharp
+using UnityEngine;
+using Minis;
+
+public class MidiParticleController : MonoBehaviour
+{
+    [Header("Particle Settings")]
+    public ParticleSystem targetParticleSystem;
+    
+    [Header("Mapping Parameters")]
+    public float minEmissionRate = 10f;
+    public float maxEmissionRate = 200f;
+    public float minSize = 0.5f;
+    public float maxSize = 3.0f;
+
+    void Update()
+    {
+        // 檢查是否有連接 MIDI 鍵盤並讀取特定控制鈕或音符輸入
+        inputLogic();
+    }
+
+    private void inputLogic()
+    {
+        var emitModule = targetParticleSystem.emission;
+        // 實務上可透過 Minis 提供的 Keyboard.current.onNoteOn += OnNoteOn; 進行事件監聽
+    }
+
+    // 當 MIDI 鍵盤按下時觸發
+    public void OnMidiNoteOn(MidiNoteControlledDevice noteDevice, float velocity)
+    {
+        if (targetParticleSystem != null)
+        {
+            // 根據按下琴鍵的力度 (Velocity) 改變粒子發射數量與顏色
+            var emission = targetParticleSystem.emission;
+            emission.rateOverTime = Mathf.Lerp(minEmissionRate, maxEmissionRate, velocity);
+            
+            // 觸發一次性的粒子爆炸效果
+            targetParticleSystem.Emit(Mathf.RoundToInt(velocity * 50));
+        }
+    }
+}
 
 ---
 <p align="center">🛠️ 113_FoPDAI_CourseProject | 國立臺北科技大學 互動設計系</p>
