@@ -26,7 +26,6 @@
 - [🌟 2025 學生成果展示](#-2025-學生成果展示)
 - [🌟 2024 經典成果展示](#-2024-經典成果展示)
 - [📖 教學概要](#-教學概要)
-- [💻 核心程式碼 (Code)](#-核心程式碼-code)
 
 ---
 
@@ -42,7 +41,11 @@
 ---
 
 ## 📺 教材示範影片
-https://github.com/user-attachments/assets/I_TfnCPqWdc
+<p align="center">
+  <a href="https://github.com/user-attachments/assets/I_TfnCPqWdc" target="_blank" rel="noopener noreferrer">
+    <img src="螢幕擷取畫面 2026-05-18 151728.png" alt="教材示範影片" width="80%">
+  </a>
+</p>
 
 ---
 
@@ -170,7 +173,7 @@ https://github.com/user-attachments/assets/I_TfnCPqWdc
 ## 📖 教學概要
 本專案對應之課程單元與開發實作指南涵蓋以下核心模組與步驟：
 
-### 一、 詳細教學講義內容
+### 一、 內容擷取
 1. **Unity 新輸入系統 (New Input System)**：
    * 學習如何從舊版的 Input Manager 轉換至支援多裝置、事件驅動的新系統。
    * 設定 `Input Actions`、Action Maps、Actions 與各種 Bindings 參數設定。
@@ -188,54 +191,6 @@ https://github.com/user-attachments/assets/I_TfnCPqWdc
    - 設定 Unity New Input System 與 MINIS 插件，編寫 C# 腳本接收 MIDI 鍵盤訊號，處理即時數值映射。
 3. **階段三：生成藝術與景觀整合**
    - 結合 Particle System 與 Prefab（預製物件）進行模組化佈署與視覺生成，完成最終的聲光互動展演。
-
----
-
-## 💻 核心程式碼 (Code)
-
-以下為本專案結合 **Minis 插件** 與 **Unity Particle System** 的核心 C# 範例程式碼：
-
-```csharp
-using UnityEngine;
-using Minis;
-
-public class MidiParticleController : MonoBehaviour
-{
-    [Header("Particle Settings")]
-    public ParticleSystem targetParticleSystem;
-    
-    [Header("Mapping Parameters")]
-    public float minEmissionRate = 10f;
-    public float maxEmissionRate = 200f;
-    public float minSize = 0.5f;
-    public float maxSize = 3.0f;
-
-    void Update()
-    {
-        // 檢查是否有連接 MIDI 鍵盤並讀取特定控制鈕或音符輸入
-        inputLogic();
-    }
-
-    private void inputLogic()
-    {
-        var emitModule = targetParticleSystem.emission;
-        // 實務上可透過 Minis 提供的 Keyboard.current.onNoteOn += OnNoteOn; 進行事件監聽
-    }
-
-    // 當 MIDI 鍵盤按下時觸發
-    public void OnMidiNoteOn(MidiNoteControlledDevice noteDevice, float velocity)
-    {
-        if (targetParticleSystem != null)
-        {
-            // 根據按下琴鍵的力度 (Velocity) 改變粒子發射數量與顏色
-            var emission = targetParticleSystem.emission;
-            emission.rateOverTime = Mathf.Lerp(minEmissionRate, maxEmissionRate, velocity);
-            
-            // 觸發一次性的粒子爆炸效果
-            targetParticleSystem.Emit(Mathf.RoundToInt(velocity * 50));
-        }
-    }
-}
 
 ---
 <p align="center">🛠️ 113_FoPDAI_CourseProject | 國立臺北科技大學 互動設計系</p>
