@@ -13,7 +13,7 @@
 </p>
 
 # 🎹🎵 Interactive Generative Art with MIDI Keyboard
-> **113_FoPDAI_課程教材與專案** —— 結合 MIDI 鍵盤、程式設計與視覺互動藝術的教學實踐與成果展示。本專案引導學生透過數位連結（Digital Engagement）探索沉浸式音樂互動景觀化體驗[cite: 2]。
+> **113_FoPDAI_課程教材與專案** —— 結合 MIDI 鍵盤、程式設計與視覺互動藝術的教學實踐與成果展示。本專案引導學生透過數位連結（Digital Engagement）探索沉浸式音樂互動景觀化體驗。
 
 ---
 
@@ -35,8 +35,8 @@
 
 ---
 
-## 🌟 教學宗旨與核心理念
-本課程旨在引導學生透過互動式視覺與聽覺的結合，增強特定舞台（如舞蹈、音樂劇、戲劇、科技藝術或遊戲體驗等）之表現力[cite: 2]。課程內容涵蓋程式語言的基本語法、人工智慧與外部硬體（如 MIDI 控制器）的應用，帶領學生將音樂與空間、程式碼邏輯融為一體，實踐音樂互動式景觀化（Music-Interactive Scenographization）的完整創作。
+## 🌟 教學大綱
+本課程旨在引導學生透過互動式視覺與聽覺的結合，增強特定舞台（如舞蹈、音樂劇、戲劇、科技藝術或遊戲體驗等）之表現力。課程內容涵蓋程式語言的基本語法、人工智慧與外部硬體（如 MIDI 控制器）的應用，帶領學生將音樂與空間、程式碼邏輯融為一體，實踐音樂互動式景觀化（Music-Interactive Scenographization）的完整創作。
 
 ---
 
@@ -106,10 +106,10 @@
 
 | 模組分類 | 核心技術 / 工具 | 說明與應用 |
 | :--- | :--- | :--- |
-| **互動硬體整合** | `MINIS (RtMidi)`, `MIDI Keyboard` | 讀取外部 MIDI 鍵盤/控制器訊號，即時抓取數值並進行 0-1 參數映射[cite: 8]。 |
-| **輸入系統** | `Unity New Input System` | 採用事件驅動（Event-based）架構，靈活設定 Action Maps 與對應綁定[cite: 8]。 |
-| **物理與動態控制** | `Rigidbody`, `Update()`, `Time.time` | 賦予物件真實物理特性，透過每幀更新與精準時間軸控制實現流暢動態[cite: 5]。 |
-| **聲光視覺融合** | `Particle System`, `AudioSource` | 將音樂頻率與節奏對應至視覺粒子與特效，建構動態生成藝術（Generative Art）[cite: 8]。 |
+| **互動硬體整合** | `MINIS (RtMidi)`, `MIDI Keyboard` | 讀取外部 MIDI 鍵盤/控制器訊號，即時抓取數值並進行 0-1 參數映射。 |
+| **輸入系統** | `Unity New Input System` | 採用事件驅動（Event-based）架構，靈活設定 Action Maps 與對應綁定。 |
+| **物理與動態控制** | `Rigidbody`, `Update()`, `Time.time` | 賦予物件真實物理特性，透過每幀更新與精準時間軸控制實現流暢動態。 |
+| **聲光視覺融合** | `Particle System`, `AudioSource` | 將音樂頻率與節奏對應至視覺粒子與特效，建構動態生成藝術（Generative Art）。 |
 
 ---
 
